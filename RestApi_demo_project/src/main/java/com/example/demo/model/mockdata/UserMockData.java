@@ -11,12 +11,12 @@ public class UserMockData {
     public static List<User> getUserMockData() {
         List<User> userList = new ArrayList<>();
 
-        userList.add(UserBuilder.anUser().withId(userList.size() + 1).withNome("Albert").build());
-        userList.add(UserBuilder.anUser().withId(userList.size() + 1).withNome("Gauchera").build());
-        userList.add(UserBuilder.anUser().withId(userList.size() + 1).withNome("Alice").build());
-        userList.add(UserBuilder.anUser().withId(userList.size() + 1).withNome("Fa").build());
-        userList.add(UserBuilder.anUser().withId(userList.size() + 1).withNome("Kraken").build());
-        userList.add(UserBuilder.anUser().withId(userList.size() + 1).withNome("Bigu").build());
+        userList.add(UserBuilder.anUser().withId(userList.size() + 1).withNome("User " + String.valueOf(userList.size() + 1)).build());
+        userList.add(UserBuilder.anUser().withId(userList.size() + 1).withNome("User " + String.valueOf(userList.size() + 1)).build());
+        userList.add(UserBuilder.anUser().withId(userList.size() + 1).withNome("User " + String.valueOf(userList.size() + 1)).build());
+        userList.add(UserBuilder.anUser().withId(userList.size() + 1).withNome("User " + String.valueOf(userList.size() + 1)).build());
+        userList.add(UserBuilder.anUser().withId(userList.size() + 1).withNome("User " + String.valueOf(userList.size() + 1)).build());
+        userList.add(UserBuilder.anUser().withId(userList.size() + 1).withNome("User " + String.valueOf(userList.size() + 1)).build());
 
         return userList;
     }
